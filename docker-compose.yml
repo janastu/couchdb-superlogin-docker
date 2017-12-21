@@ -11,8 +11,8 @@ services:
      - couchdb:couchdb
   couchdb:
     environment: 
-     - COUCHDB_USER:admin
-     - COUCHDB_PASSWORD:admin!23
+     - COUCHDB_USER:adminusername
+     - COUCHDB_PASSWORD:adminpassword
     image: klaemo/couchdb:1.6-couchperuser
     ports: 
      - "5984:5984"
