@@ -2,7 +2,7 @@ version: '2'
 volumes:
   couchdb_data: {}
 services:
-  weblogin:
+  superlogin:
     build: .
     restart: always
     ports:
